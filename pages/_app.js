@@ -2,6 +2,7 @@
 import DefaultLayout from '@/components/layouts/defaultLayout';
 // styles
 import '@/styles/globals.css'
+import '@/styles/styleSwiper.css'
 
 const layouts = {
   L1: DefaultLayout,

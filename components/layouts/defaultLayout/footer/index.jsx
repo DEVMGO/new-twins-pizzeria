@@ -4,27 +4,27 @@ import Image from "next/image";
 // image
 import Logo from "@/public/assets/images/text-logo.svg";
 // icons
-import { IoLocationOutline } from "react-icons/io5";
-import { FiPhoneCall } from "react-icons/fi";
-import Email from "@/components/ui/icons/email";
+import EmailIcon from "@/components/ui/icons/email";
+import PhoneIcon from "@/components/ui/icons/phone";
+import LocationIcon from "@/components/ui/icons/location";
 
 const Footer = () => {
   const menuItems = [
     {
       title: "Hem",
-      url: "",
+      url: "/",
     },
     {
       title: "Meny",
-      url: "",
+      url: "/menu",
     },
     {
       title: "Om oss",
-      url: "",
+      url: "/about-us",
     },
     {
       title: "Kontakt",
-      url: "",
+      url: "/contact-us",
     },
   ];
 
@@ -33,7 +33,7 @@ const Footer = () => {
       <div className="w-full flex items-start justify-between md:flex-row flex-col md:px-4 p-4 px-8">
         <div className="w-full flex sm:items-center items-start justify-start flex-col my-8">
           <div className="flex items-start justify-start flex-col">
-            <Image src={Logo} />
+            <Image src={Logo} alt="twins pizzeria" />
             <div className="min-w-max text-xs text-white mt-3 flex items-center justify-center">
               <p>© 2022</p> <h1>Twins Pizzeria</h1>
               <p>. Alla rättigheter förbehållna</p>
@@ -58,15 +58,15 @@ const Footer = () => {
           <div className="flex items-start justify-start flex-col">
             <h5 className="text-sm font-bold text-white">Information</h5>
             <div className="flex items-center justify-start my-3">
-              <IoLocationOutline className="mr-2 text-white text-lg" />
+              <LocationIcon className="mr-2 text-white text-lg" />
               <p className="text-sm text-white">Lundavägen 71A, 212 24 Malmö</p>
             </div>
             <div className="flex items-center justify-start my-3">
-              <FiPhoneCall className="mr-2 text-white text-lg" />
+              <PhoneIcon className="mr-2 text-white text-lg" />
               <p className="text-sm text-white">040-18 23 22 , 040-18 50 50</p>
             </div>
             <div className="flex items-center justify-start my-3">
-              <Email className="mr-2 text-white text-lg" />
+              <EmailIcon className="mr-2 text-white text-lg" />
               <p className="text-sm text-white">Kontakt@twinspizzeria.se</p>
             </div>
           </div>

@@ -13,6 +13,10 @@ module.exports = {
       colors: {
         blue28: "#1C1C28",
         blue3D: '#28293D',
+        gray70: "#555770",
+        grayD9: "#C7C9D9",
+        grayE5: "#E5E5E5",
+        grayFC: "#FAFAFC",
         redED: "#ED4034",
       },
       gridTemplateColumns: {

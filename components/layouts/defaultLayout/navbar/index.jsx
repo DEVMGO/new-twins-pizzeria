@@ -17,25 +17,25 @@ const Navbar = ({ objekts }) => {
   const menuItems = [
     {
       title: "Hem",
-      url: "",
+      url: "/",
     },
     {
       title: "Meny",
-      url: "",
+      url: "/menu",
     },
     {
       title: "Om oss",
-      url: "",
+      url: "/about-us",
     },
     {
       title: "Kontakt",
-      url: "",
+      url: "/contact-us",
     },
   ];
 
   return (
     <>
-      <div className="w-full h-20 hidden md:flex items-center justify-evenly bg-blue28 p-2 relative">
+      <div className="w-full h-20 hidden md:flex items-center justify-evenly bg-blue28 p-2 relative z-40">
         <ul className="w-full flex items-center justify-end lg:gap-14 md:gap-8">
           {menuItems.map((item, index) => (
             <li
@@ -47,32 +47,36 @@ const Navbar = ({ objekts }) => {
           ))}
         </ul>
 
-        <div className="w-full flex items-center justify-center">
-          <Image
-            src={Logo}
-            alt="new-twins-pizzeri"
-            className="w-32 h-32 translate-y-10"
-          />
+        <div className="lg:w-full w-3/4 flex items-center justify-center">
+          <Link href="/">
+            <Image
+              src={Logo}
+              alt="new-twins-pizzeri"
+              className="w-32 h-32 translate-y-10"
+            />
+          </Link>
         </div>
         <div className="w-full flex items-center justify-center gap-4">
-          <Button className="bg-transparent !border-white py-3 lg:max-w-[9rem] md:max-w-[7rem]">
-            <CiShoppingBasket className="mr-2" /> {objekts} objekt
+          <Button className="bg-transparent !border-white py-3 lg:max-w-[9rem] md:max-w-[8rem] min-w-max">
+            <CiShoppingBasket className="mr-2 text-xl" /> {objekts} objekt
           </Button>
 
           <Button
             link="tel:040185050"
-            className="py-3 lg:max-w-[9rem] md:max-w-[7rem]"
+            className="py-3 lg:max-w-[9rem] md:max-w-[8rem] text-base"
           >
-            <FiPhoneCall className="mr-2" /> 040-18 50 50
+            <FiPhoneCall className="mr-2 -mb-1 text-base" /> 040-18 50 50
           </Button>
         </div>
       </div>
 
       {/* ------------------- mobile menu --------------- */}
 
-      <div className="w-full h-20 flex md:hidden items-center justify-evenly bg-blue28 p-2 px-4 relative">
+      <div className="w-full h-20 flex md:hidden items-center justify-evenly bg-blue28 p-2 px-4 relative z-40">
         <div className="w-full flex items-center justify-start">
-          <Image src={Logo} alt="new-twins-pizzeri" className="w-16 h-16" />
+          <Link href="/">
+            <Image src={Logo} alt="new-twins-pizzeri" className="w-16 h-16" />
+          </Link>
         </div>
 
         <button
@@ -98,6 +102,7 @@ const Navbar = ({ objekts }) => {
         >
           {menuItems.map((item, index) => (
             <li
+              onClick={() => setMenu(false)}
               key={index + "navitems"}
               className={`w-full flex items-center justify-start text-sm text-white border-b border-gray-50 border-opacity-10 p-4`}
             >
@@ -107,7 +112,7 @@ const Navbar = ({ objekts }) => {
           <li
             className={`w-full flex items-center justify-start text-sm text-white border-b border-gray-50 border-opacity-10 p-4`}
           >
-            <CiShoppingBasket className="mr-2" /> {objekts} objekt
+            <CiShoppingBasket className="mr-2 text-xl" /> {objekts} objekt
           </li>
           <li
             className={`w-full flex items-center justify-start text-sm text-white border-b border-gray-50 border-opacity-10 p-4`}

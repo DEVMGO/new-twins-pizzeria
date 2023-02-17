@@ -1,0 +1,32 @@
+#sliderhome {
+  position: relative;
+}
+
+#sliderhome .swiper .swiper-initialized .swiper-horizontal .swiper-backface-hidden .mySwiper {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+#sliderhome .swiper {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+#sliderhome .swiper-slide {
+  width: 100% !important;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sliderhome .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
