@@ -21,7 +21,7 @@ const Dryckes = () => {
             <h3 className="text-gray70 mr-1">Beer</h3> 50cl <span>40kr</span>
           </div>
 
-          <Button link="#" className="!w-32 py-3 !bg-blue28 !border-white my-3">Se dryckesmeny</Button>
+          <Button link="#" className="!w-32 !text-xs py-3 !bg-blue28 !border-white my-3">Se dryckesmeny</Button>
         </div>
       </div>
     </div>
