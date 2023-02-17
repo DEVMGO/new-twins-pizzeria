@@ -24,12 +24,12 @@ export default function SliderSwiper() {
       url: "",
     },
     {
-      title: "England Pizza",
+      title: "Vegetable Food",
       image: Img2,
       url: "",
     },
     {
-      title: "Parise Pizza",
+      title: "Lunch Time",
       image: Img3,
       url: "",
     },
