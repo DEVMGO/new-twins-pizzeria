@@ -1,8 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url(./fontiran.css);
+
+
 
 * {
+  font-family: Inter !important;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -15,6 +19,7 @@ body {
 }
 
 body {
+  font-family: Inter !important;
   padding: 0;
   margin: 0;
   background: #fff;

@@ -1,0 +1,71 @@
+@font-face {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 100;
+  src: url("../public/assets/fonts/inter/woff/Inter-Thin.woff") format("woff"),
+    url("../public/assets/fonts/inter/woff2/Inter-Thin.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 200;
+  src: url("../public/assets/fonts/inter/woff/Inter-ExtraLight.woff") format("woff"),
+    url("../public/assets/fonts/inter/woff2/Inter-ExtraLight.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 300;
+  src: url("../public/assets/fonts/inter/woff/Inter-Light.woff") format("woff"),
+    url("../public/assets/fonts/inter/woff2/Inter-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  src: url("../public/assets/fonts/inter/woff/Inter-Medium.woff") format("woff"),
+    url("../public/assets/fonts/inter/woff2/Inter-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  src: url("../public/assets/fonts/inter/woff/Inter-SemiBold.woff") format("woff"),
+    url("../public/assets/fonts/inter/woff2/Inter-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 800;
+  src: url("../public/assets/fonts/inter/woff/Inter-ExtraBold.woff") format("woff"),
+    url("../public/assets/fonts/inter/woff2/Inter-ExtraBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  src: url("../public/assets/fonts/inter/woff/Inter-Black.woff") format("woff"),
+    url("../public/assets/fonts/inter/woff2/Inter-Black.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  src: url("../public/assets/fonts/inter/woff/Inter-Bold.woff") format("woff"),
+    url("../public/assets/fonts/inter/woff2/Inter-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../public/assets/fonts/inter/woff/Inter-Regular.woff") format("woff"),
+    url("../public/assets/fonts/inter/woff2/Inter-Regular.woff2") format("woff2");
+}
