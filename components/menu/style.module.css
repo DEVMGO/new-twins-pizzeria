@@ -1,0 +1,5 @@
+#headerMenu::-webkit-scrollbar,
+#filtermenu::-webkit-scrollbar {
+    opacity: 0 !important;
+    height: 0;
+}

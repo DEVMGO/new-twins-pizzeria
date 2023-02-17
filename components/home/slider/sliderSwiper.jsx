@@ -58,7 +58,7 @@ export default function SliderSwiper() {
             >
               <h3 className="md:text-6xl text-3xl md:font-semibold font-bold text-[#ffffff] z-20">{item.title}</h3>
 
-              <Button link={item.url} className="max-w-[13rem] md:h-12 h-10 min-w-max z-20 font-semibold">
+              <Button link="/menu" className="max-w-[13rem] md:h-12 h-10 min-w-max z-20 font-semibold">
                 Menu & Order Online
               </Button>
             </div>
