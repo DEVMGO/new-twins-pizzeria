@@ -52,7 +52,7 @@ const Navbar = ({ objekts }) => {
             <Image
               src={Logo}
               alt="new-twins-pizzeri"
-              className="w-32 h-32 translate-y-11"
+              className="w-32 h-32 translate-y-10"
             />
           </Link>
         </div>
