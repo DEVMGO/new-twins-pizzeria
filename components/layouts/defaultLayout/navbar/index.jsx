@@ -47,7 +47,7 @@ const Navbar = ({ objekts }) => {
           ))}
         </ul>
 
-        <div className="lg:w-full w-3/4 flex items-center justify-center">
+        <div className="lg:w-full w-3/4 flex items-center justify-center z-30">
           <Link href="/">
             <Image
               src={Logo}

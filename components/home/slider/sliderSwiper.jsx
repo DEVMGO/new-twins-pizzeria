@@ -53,12 +53,12 @@ export default function SliderSwiper() {
         {sliderItems.map((item, index) => (
           <SwiperSlide key={index + "homeSlider"}>
             <div
-              className="w-full h-full flex items-center justify-center flex-col bg-cover bg-no-repeat relative before:absolute before:z-20 before:w-full before:h-full before:bg-gradient-to-b before:from-black before:opacity-70 gap-6"
+              className="w-full h-full flex items-center justify-center flex-col bg-cover bg-no-repeat relative before:absolute before:z-10 before:w-full before:h-full before:bg-gradient-to-b before:from-black before:opacity-70 gap-6"
               style={{ backgroundImage: `url(${item.image.src})` }}
             >
-              <h3 className="md:text-6xl text-3xl md:font-semibold font-bold text-[#ffffff] z-20">{item.title}</h3>
+              <h3 className="md:text-6xl text-3xl md:font-semibold font-bold text-[#ffffff] z-10">{item.title}</h3>
 
-              <Button link="/menu" className="max-w-[13rem] md:h-12 h-10 min-w-max z-20 font-semibold">
+              <Button link="/menu" className="max-w-[13rem] md:h-12 h-10 min-w-max z-10 font-semibold">
                 Menu & Order Online
               </Button>
             </div>
