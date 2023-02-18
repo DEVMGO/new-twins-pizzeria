@@ -42,7 +42,7 @@ const Luncherbjudanden = () => {
                   <Image
                     src={item.image}
                     alt={item.title}
-                    className="w-full h-full"
+                    className="w-full h-full object-contain"
                   />
                 </div>
                 <h2 className="text-xl text-blue28 font-bold my-4">{item.title}</h2>
