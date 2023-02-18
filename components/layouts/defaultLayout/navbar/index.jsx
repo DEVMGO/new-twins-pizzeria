@@ -104,9 +104,14 @@ const Navbar = ({ objekts }) => {
             <li
               onClick={() => setMenu(false)}
               key={index + "navitems"}
-              className={`w-full flex items-center justify-start text-sm text-white border-b border-gray-50 border-opacity-10 p-4`}
+              className={`w-full flex items-center justify-start border-b border-gray-50 border-opacity-10`}
             >
-              <Link href={item.url}>{item.title}</Link>
+              <Link 
+                href={item.url} 
+                className={`w-full flex items-center justify-start text-sm text-white p-4`}
+              >
+                {item.title}
+              </Link>
             </li>
           ))}
           <li
