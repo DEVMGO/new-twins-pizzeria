@@ -16,15 +16,15 @@ const Footer = () => {
     },
     {
       title: "Meny",
-      url: "/menu",
+      url: "/meny",
     },
     {
       title: "Om oss",
-      url: "/about-us",
+      url: "/om-oss",
     },
     {
       title: "Kontakt",
-      url: "/contact-us",
+      url: "/kontakt",
     },
   ];
 
@@ -42,11 +42,11 @@ const Footer = () => {
         </div>
 
         <div className="w-full flex items-start justify-center my-8">
-          <ul className={`w-full flex items-center justify-start md:flex-col flex-row`}>
+          <ul className={`flex items-start justify-start md:flex-col flex-row`}>
             {menuItems.map((item, index) => (
               <li
                 key={index + "navitems"}
-                className={`w-full flex items-center justify-center text-sm text-white sm:p-4 p-2`}
+                className={`flex items-center justify-center text-sm text-white sm:p-4 p-2`}
               >
                 <Link href={item.url}>{item.title}</Link>
               </li>

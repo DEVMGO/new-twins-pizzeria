@@ -8,7 +8,7 @@ const News = () => {
       <div className="md:w-4/5 max-w-screen-2xl w-full flex items-center lg:justify-between justify-center lg:flex-row flex-col sm:p-8 p-4">
         <div className="sm:w-auto w-full flex items-start justify-center flex-col sm:p-6 lg:ml-10 lg:mt-0 mt-5 lg:order-1 order-2">
           <h3 className="md:text-3xl text-2xl text-blue28 font-bold my-3">Nu har vi pub!</h3>
-          <p className="max-w-[28rem] text-sm text-blue28 text-justify">
+          <p className="max-w-[28rem] text-sm text-blue28 text-justify bg-transparent">
             orem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type

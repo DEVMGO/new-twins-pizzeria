@@ -21,15 +21,15 @@ const Navbar = ({ objekts }) => {
     },
     {
       title: "Meny",
-      url: "/menu",
+      url: "/meny",
     },
     {
       title: "Om oss",
-      url: "/about-us",
+      url: "/om-oss",
     },
     {
       title: "Kontakt",
-      url: "/contact-us",
+      url: "/kontakt",
     },
   ];
 

@@ -4,11 +4,11 @@ import Image from "next/image";
 // images
 import ImgCover from "@/public/assets/images/aboutus/cover.jpg";
 
-const AboutUs = () => {
+const Om_Oss = () => {
   return (
     <>
       <Head>
-        <title>Om oss</title>
+        <title>Om Oss | Twins Pizzeria & Pub</title>
       </Head>
       <div className="w-full max-w-screen-2xl flex items-center justify-start flex-col lg:pt-24 pt-10 px-6">
         <h4 className="text-3xl text-blue28 font-bold">Om oss</h4>
@@ -93,6 +93,6 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default Om_Oss;
 
-AboutUs.layout = "L1";
+Om_Oss.layout = "L1";

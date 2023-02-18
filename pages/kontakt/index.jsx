@@ -2,12 +2,12 @@ import React from "react";
 import Head from "next/head";
 import Image from "next/image";
 // components
-import Contacts from "@/components/contact-us/contacts";
-import ContactUsForm from "@/components/contact-us/contactUsForm";
+import Contacts from "@/components/kontakt/contacts";
+import ContactUsForm from "@/components/kontakt/contactUsForm";
 // images
 import ImgCover from "@/public/assets/images/aboutus/cover.jpg";
 
-const ContactUs = () => {
+const Kontakt = () => {
   let email = 'Kontakt@twinspizzeria.se';
   let phone = '040-18 23 22 , 040-18 50 50';
   let location = 'Lundavägen 71A, 212 24 Malmö';
@@ -15,7 +15,7 @@ const ContactUs = () => {
   return (
     <>
       <Head>
-        <title>Kontakt</title>
+        <title>Kontakt | Twins Pizzeria & Pub</title>
       </Head>
       <div className="w-full max-w-screen-2xl flex items-center justify-start flex-col md:py-24 py-10 px-6">
         <h4 className="text-3xl text-blue28 font-bold">Kontakt</h4>
@@ -40,6 +40,6 @@ const ContactUs = () => {
   );
 };
 
-export default ContactUs;
+export default Kontakt;
 
-ContactUs.layout = "L1";
+Kontakt.layout = "L1";
