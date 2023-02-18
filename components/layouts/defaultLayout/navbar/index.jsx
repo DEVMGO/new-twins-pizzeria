@@ -4,7 +4,7 @@ import Image from "next/image";
 // components
 import Button from "@/components/ui/button";
 // images
-import Logo from "@/public/assets/images/Logo.svg";
+import Logo from "@/public/assets/images/logo.png";
 // icons
 import { FiPhoneCall } from "react-icons/fi";
 import { CiShoppingBasket } from "react-icons/ci";
