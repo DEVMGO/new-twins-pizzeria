@@ -11,7 +11,7 @@ const Dryckes = () => {
           <Image src={Img} alt="dryckes" className="w-full h-full object-cover" />
         </div>
 
-        <div className="min-w-max sm:w-auto w-full flex items-start justify-center flex-col sm:p-6 lg:ml-10">
+        <div className="min-w-max sm:w-auto w-full flex items-start justify-center flex-col sm:p-6 lg:ml-10 lg:mt-0 mt-5">
           <h3 className="md:text-3xl text-2xl text-blue28 font-bold my-3">Happy hour</h3>
           <div className="text-base text-blue28 font-medium">17:00-19:00 <span className="text-base text-gray70">mellan</span> Måndag-Fredag</div>
           <div className="flex items-end text-base text-gray70 [&>span]:text-blue28 [&>span]:ml-2 [&>span]:font-medium">

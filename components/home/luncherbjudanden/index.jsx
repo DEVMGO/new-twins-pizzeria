@@ -45,7 +45,7 @@ const Luncherbjudanden = () => {
                     className="w-full h-full"
                   />
                 </div>
-                <h2 className="text-xl font-bold my-4">{item.title}</h2>
+                <h2 className="text-xl text-blue28 font-bold my-4">{item.title}</h2>
                 <h5 className="text-sm text-gray70 font-medium">
                   {item.kr} kr
                 </h5>
